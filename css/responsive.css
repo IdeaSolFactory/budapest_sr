@@ -1,0 +1,666 @@
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: none;
+}
+
+#index2 .navbar-light .navbar-toggler {
+    color: #fff;
+    outline: 0;
+}
+
+#index3 .navbar-light .navbar-toggler,
+#index4 .navbar-light .navbar-toggler {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-toggler i {
+    font-size: 28px;
+}
+
+
+.nav-bg i {
+    color: #fff;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+@media(max-width:991px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin: 18px;
+        color: #fff;
+        line-height: 0;
+    }
+
+    .nav-bg {
+        padding-left: 12px;
+    }
+
+    .menu-item {
+        background: #2a2d48;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .navbar::after {
+        display: none;
+    }
+
+    .navbar-light .navbar-brand {
+        color: #fff;
+    }
+
+    .navbar-light .navbar-brand:hover {
+        color: #fff;
+    }
+
+    .nav-bg .navbar-brand:hover {
+        color: #fff;
+    }
+
+    .nav-bg .navbar-brand {
+        color: #fff;
+    }
+
+    .nav-btn {
+        display: inline-block;
+        line-height: 39px !important;
+    }
+}
+
+@media(max-width:575px) {
+    #banner {
+        padding: 78px 0 190px;
+    }
+
+    .banner-txt {
+        margin-bottom: 75px;
+    }
+
+    .banner-txt h1 {
+        font-size: 43px;
+        line-height: 55px;
+    }
+
+    .banner-txt p {
+        padding-right: 0;
+    }
+
+    .img-3,
+    .img-2 {
+        width: 151px;
+    }
+
+    .img-3 {
+        left: 6px;
+    }
+
+    .img-2 {
+        right: 9px;
+    }
+
+    .main-img img {
+        width: 100%;
+    }
+
+    .play-btn {
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .mobile-auto {
+        margin: 0 auto;
+    }
+
+    .coming-data2 {
+        font-size: 17px;
+        top: 40px;
+        left: 0;
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    .coun_time h2 {
+        font-size: 32px;
+    }
+
+    .social-icons {
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 40px;
+    }
+
+    .about-txt {
+        padding-top: 35px;
+    }
+
+    .about-txt h4 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .about-txt p {
+        padding-right: 0;
+    }
+
+    .ai-place,
+    .counter-txt::after,
+    .social-icon,
+    .circle-style::after,
+    .circle-style::before,
+    .mobile-hide,
+    .r-b-color::before,
+    .speak-time,
+    .r-b-color {
+        display: none;
+    }
+
+    #event,
+    #about,
+    #schedule,
+    #speaker,
+    #price,
+    #register,
+    #review {
+        padding: 80px 0;
+    }
+
+    .event-header p {
+        padding-right: 4px;
+    }
+
+    .mobile-t-p {
+        margin-bottom: 55px;
+    }
+
+    #counter {
+        padding: 0 0 100px;
+    }
+
+    .organize-text p {
+        padding: 0;
+        padding-bottom: 38px;
+    }
+
+    .org-item {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .speaker-pa {
+        padding-top: 25px;
+    }
+
+    .speak_2,
+    .speak_4,
+    .speak_6 {
+        margin-top: 0;
+    }
+
+    .speaker-item {
+        margin-top: 65px;
+    }
+
+    .timer-main {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .timer {
+        left: 80px;
+    }
+
+    .price-pa {
+        padding-top: 55px;
+    }
+
+    .price-item {
+        margin-top: 30px;
+    }
+
+    #gallery {
+        padding: 90px 0;
+    }
+
+    .gallery-pa {
+        padding-top: 80px;
+    }
+
+    .register-pa {
+        padding-top: 65px;
+    }
+
+    .purchase-box {
+        padding-right: 22px;
+    }
+
+    .purchase-box h5 {
+        padding-bottom: 30px;
+    }
+
+    .payment-btn {
+        margin-top: 40px;
+    }
+
+    .form-group {
+        margin-bottom: 35px;
+    }
+
+    .review-pa {
+        padding-top: 70px;
+    }
+
+    .review-item {
+        padding: 0;
+        text-align: center;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .review-item p {
+        padding-right: 0;
+    }
+
+    .review-img img {
+        display: inline-block;
+    }
+
+    .review-item h3 {
+        padding-top: 20px;
+    }
+
+    #brand {
+        padding: 20px 0;
+    }
+
+    .event-header h3 {
+        font-size: 35px;
+    }
+
+    .brand_2 {
+        padding-top: 40px;
+    }
+
+    .brand-m-p {
+        margin-bottom: 40px;
+    }
+
+    #blog {
+        padding: 80px 0;
+    }
+
+    .blog-data a h3 {
+        font-size: 25px;
+    }
+
+    .social-icons_2 i {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        margin-right: 12px;
+        font-size: 18px;
+    }
+
+    .sub-btn {
+        width: 110px;
+    }
+
+    .menu-a a {
+        margin: 0 7px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    #banner {
+        padding: 100px 0 240px;
+    }
+
+    .banner-txt h1 {
+        font-size: 41px;
+    }
+
+    .banner-txt {
+        padding-bottom: 80px;
+    }
+
+    .coming-data2 {
+        right: 20px;
+    }
+
+    .special-pos {
+        right: 1px;
+    }
+
+    .social-icons {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .main-img img {
+        width: 100%;
+    }
+
+    .play-btn {
+        top: 50%;
+        left: 57%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .ai-place {
+        bottom: 187px;
+        left: -185px;
+    }
+
+    .about-txt {
+        padding-top: 65px;
+    }
+
+    .about-item h3 {
+        padding-bottom: 16px;
+    }
+
+    .about-item {
+        padding-right: 13px;
+    }
+
+    .mobile-t-p {
+        padding-bottom: 70px;
+    }
+
+    .counter-txt::after {
+        display: none;
+    }
+
+    .organize-text h3 {
+        font-size: 32px;
+    }
+
+    .organize-text p {
+        padding: 0;
+        padding-bottom: 36px;
+    }
+
+    .org-item {
+        margin: 30px 0;
+    }
+
+    .sm-style-h::after {
+        display: none;
+    }
+
+    .circle-style::before {
+        right: -15px;
+    }
+
+    .circle-style::after {
+        right: 1px;
+    }
+
+    .speaker-pa {
+        padding-top: 25px;
+    }
+
+    .speak_2 .social-icon,
+    .speak_4 .social-icon,
+    .speak_6 .social-icon {
+        left: 65px;
+    }
+
+    .speak_2,
+    .speak_4,
+    .speak_6 {
+        margin-top: 0;
+    }
+
+    .speaker-item {
+        margin-top: 80px;
+    }
+
+    .speak-time {
+        right: 99px;
+    }
+
+    .speak_2 .speak-time,
+    .speak_4 .speak-time,
+    .speak_6 .speak-time {
+        right: -11px;
+    }
+
+    .landscap-hide,
+    .r-b-color {
+        display: none;
+    }
+
+    .register-pa {
+        padding-top: 65px;
+    }
+
+    .landscap-center {
+        text-align: center;
+    }
+
+    .schedule-item h3::after {
+        left: 78px;
+    }
+
+    .schedule-item h3 {
+        padding-top: 24px;
+    }
+
+    .schedule-pa {
+        padding-top: 65px;
+    }
+
+    .price-item {
+        margin-top: 30px;
+    }
+
+    .price-pa {
+        padding-top: 37px;
+    }
+
+    .purchase-box h5 {
+        padding-bottom: 30px;
+    }
+
+    #review {
+        padding: 50px 0;
+    }
+
+    .review-pa {
+        padding-top: 70px;
+    }
+
+    #brand {
+        padding: 50px 0;
+    }
+
+    .brand-m-p {
+        padding-bottom: 60px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #banner {
+        padding: 100px 0 240px;
+    }
+
+    .banner-txt {
+        margin-bottom: 95px;
+    }
+
+    .coun_time h2 {
+        font-size: 40px;
+    }
+
+    .coming-data2 {
+        right: -8px;
+        font-size: 18px;
+
+    }
+
+    .special-pos {
+        right: -19px;
+    }
+
+    .main-img img {
+        width: 100%;
+    }
+
+    .play-btn {
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .ai-place {
+        bottom: 227px;
+        left: -220px;
+    }
+
+    .about-txt h3 {
+        padding-top: 65px;
+    }
+
+    .mobile-t-p {
+        margin-bottom: 70px;
+    }
+
+    .counter-txt::after {
+        display: none;
+    }
+
+    .organize-text p {
+        padding: 9px 106px 40px;
+    }
+
+    .sm-style-h:after {
+        display: none;
+    }
+
+    .org-item {
+        margin: 30px 0;
+    }
+
+    .speak-time {
+        right: 265px;
+    }
+
+    .social-icon {
+        left: -28px;
+    }
+
+    .speak_2 .social-icon,
+    .speak_4 .social-icon,
+    .speak_6 .social-icon {
+        left: 251px;
+    }
+
+    .circle-style::before {
+        right: 77px;
+    }
+
+    .circle-style::after {
+        right: 90px;
+    }
+
+    .speak_2,
+    .speak_4,
+    .speak_6 {
+        margin-top: 0;
+    }
+
+    .speaker-item {
+        margin-top: 20px;
+    }
+
+    .landscap-hide {
+        display: none;
+    }
+
+    .price-pa {
+        padding-top: 55px;
+    }
+
+    .price-item {
+        margin: 30px 0;
+    }
+
+    .purchase-box {
+        padding-right: 17px;
+    }
+
+    .purchase-box h5 {
+        padding-bottom: 16px;
+    }
+
+    #review {
+        padding: 55px 0;
+    }
+
+    .review-pa {
+        padding-top: 65px;
+    }
+
+    #brand {
+        padding: 35px 0;
+    }
+
+    .event-header h3 {
+        font-size: 36px;
+    }
+
+    .brand-m-p {
+        margin-bottom: 30px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .banner-txt h1 {
+        font-size: 42px;
+    }
+
+    .coming-data2 {
+        right: 30px;
+    }
+
+    .special-pos {
+        right: 11px;
+    }
+
+    .social-icon {
+        left: -26px;
+    }
+
+    .speak_2 .social-icon,
+    .speak_4 .social-icon,
+    .speak_6 .social-icon {
+        left: 18px;
+    }
+
+    .speak-time {
+        right: 29px;
+    }
+
+    .schedule-item a {
+        padding: 18px 22px;
+    }
+}

@@ -1,0 +1,23 @@
+@function color($color){
+    @return map-get($colors, $color);
+}
+
+$colors:(
+    primary: #bf382b,
+    primary-light: #bf4b41,
+    primary-lighter: #d69a90,
+    primary-dark: #9b2d2d,
+    primary-darker: #300f0f,
+    text: #474341,
+    text-light: #686460,
+    text-lighter: #89847f,
+    text-white: #ede9df, 
+    background-main: #ede9df,
+    background-dark: #e7e1d6,
+    graphics: #876255,
+    graphics-dark: #6e4435,
+    graphics-light: #b7978a,
+
+    isf-primary: #e63457,
+    isf-secondary: #33b5b1
+)

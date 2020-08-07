@@ -1,0 +1,43 @@
+//screen sizes
+$screen-sm-min: 576px;
+$screen-md-min: 767px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+$screen-xxl-min: 1680px;
+$screen-hd-min: 1920px;
+
+@mixin screen-sm{
+    @media (min-width: $screen-sm-min){
+        @content;
+    }
+}
+
+@mixin screen-md{
+    @media (min-width: $screen-md-min){
+        @content;
+    }
+}
+
+@mixin screen-lg{
+    @media (min-width: $screen-lg-min){
+        @content;
+    }
+}
+
+@mixin screen-xl{
+    @media (min-width: $screen-xl-min){
+        @content;
+    }
+}
+
+@mixin screen-xxl{
+    @media (min-width: $screen-xxl-min){
+        @content;
+    }
+}
+
+@mixin screen-hd{
+    @media (min-width: $screen-hd-min){
+        @content;
+    }
+}

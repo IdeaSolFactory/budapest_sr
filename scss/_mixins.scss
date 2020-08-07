@@ -1,0 +1,27 @@
+
+// LINKS
+@mixin hover-state--all{
+    &:hover, &:active, &:focus, &:visited{
+        @content;
+    }
+}
+
+// BACKGROUNDS
+@mixin bckgrnd-img--cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@mixin bckgrnd-img--contain{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+// POSITIONS
+@mixin pos-vh-center{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
