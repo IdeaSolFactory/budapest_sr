@@ -8,7 +8,7 @@
     });         
 
     // countdown timer js 
-    $('.coundown_res').countdown('2020/08/30 18:59:59', function (event) {
+    $('.coundown_res').countdown('2020/09/05 11:00:00', function (event) {
         var $this = $(this);
         $('#day').html(event.strftime('<span>%D</span>'));
         $('#hour').html(event.strftime('<span>%H</span>'));
