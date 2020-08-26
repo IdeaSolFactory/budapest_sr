@@ -1429,19 +1429,43 @@ section {
             z-index: 2;
         }
 
-        > .bg__island-foreground {
+        > .bg__left {
             position: absolute;
             display: block;
-            width: 800px;
-            height: 800px;
-            top: 35%;
-            right: -200px;
+            width: 400px;
+            height: 400px;
+            top: 40%;
+            left: 0;
             transform: translateY(-50%);
             background-size: contain;
             background-repeat: no-repeat;
             background-position: right;
             // background-image: url(../images/background-images/schedule-island-foreground-01.png);
             z-index: 1;
+
+            @include screen-xl{
+                width: 650px;
+                height: 650px;
+            }
+        }
+
+        > .bg__right{
+            position: absolute;
+            display: block;
+            width: 400px;
+            height: 400px;
+            top: 40%;
+            right: 0;
+            transform: translateY(-50%);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+            z-index: 1;
+
+            @include screen-xl{
+                width: 700px;
+                height: 700px;
+            }
         }
 
         > .bg__fog {
