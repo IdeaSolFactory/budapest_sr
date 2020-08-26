@@ -1443,7 +1443,7 @@ section .header.header--style-4::after {
   display: block;
   width: 400px;
   height: 400px;
-  top: 40%;
+  top: 37%;
   left: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -1465,7 +1465,7 @@ section .header.header--style-4::after {
   display: block;
   width: 400px;
   height: 400px;
-  top: 40%;
+  top: 37%;
   right: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
