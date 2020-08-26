@@ -2908,6 +2908,11 @@ section .header.header--style-4::after {
           box-shadow: 0px 4px 19px 0px #bf382b;
 }
 
+/* BRAND CROSS-REFERENCE SECTION */
+#brand-ref {
+  padding: 60px 0;
+}
+
 /* CONTACT SECTION */
 #contact {
   padding: 60px 0;
