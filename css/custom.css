@@ -2913,6 +2913,59 @@ section .header.header--style-4::after {
   padding: 60px 0;
 }
 
+#brand-ref .brand-ref__wrapper {
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  #brand-ref .brand-ref__wrapper {
+    padding: 30px;
+  }
+}
+
+#brand-ref .brand-ref__wrapper .brand-ref__text-container {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #brand-ref .brand-ref__wrapper .brand-ref__text-container {
+    text-align: left;
+  }
+}
+
+#brand-ref .brand-ref__wrapper .brand-ref__text-container h3 {
+  margin-bottom: 6px;
+}
+
+#brand-ref .brand-ref__wrapper .brand-ref__text-container h1 {
+  margin-bottom: 10px;
+  color: #bf382b;
+}
+
+#brand-ref .brand-ref__wrapper .brand-ref__text-container a {
+  margin-top: 20px;
+}
+
+#brand-ref .brand-ref__wrapper .brand-ref__img-container {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 992px) {
+  #brand-ref .brand-ref__wrapper .brand-ref__img-container {
+    margin-bottom: 0;
+    padding-right: 20px;
+  }
+}
+
+#brand-ref .brand-ref__wrapper .brand-ref__img-container img {
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /* CONTACT SECTION */
 #contact {
   padding: 60px 0;

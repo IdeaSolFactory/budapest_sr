@@ -2713,6 +2713,52 @@ section {
 /* BRAND CROSS-REFERENCE SECTION */
 #brand-ref{
     padding: 60px 0;
+
+    .brand-ref__wrapper{
+        padding: 20px;
+
+        @include screen-lg{
+            padding: 30px;
+        }
+
+        .brand-ref__text-container{
+
+            text-align: center;
+    
+            @include screen-lg{
+                text-align: left;
+            }
+    
+            h3{margin-bottom: 6px;}
+            h1{
+                margin-bottom: 10px;
+                color: color(primary);
+            }
+    
+            a{           
+                margin-top: 20px;
+            }
+        }
+    
+        .brand-ref__img-container{
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+    
+            @include screen-lg{
+                margin-bottom: 0;
+                padding-right: 20px;
+            }
+    
+            img{
+                width: 100%;
+                display: block;
+                object-fit: cover;
+            }
+        }
+    }
+
+    
 }
 
 /* CONTACT SECTION */
