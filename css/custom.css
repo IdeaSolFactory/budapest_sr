@@ -2512,6 +2512,19 @@ section .header.header--style-4::after {
      object-position: center;
 }
 
+/* ACCESSIBILITY SECTION */
+#accessibility {
+  padding: 60px 0;
+}
+
+#accessibility .accessibility__txt-container h1 {
+  color: #bf382b;
+}
+
+#accessibility .accessibility__img-container img {
+  width: 100%;
+}
+
 /* FAQ SECTION */
 @media (min-width: 992px) {
   #faq {
@@ -3219,14 +3232,16 @@ p > .first-char.big {
   padding: 65px 0;
 }
 
-.content--text h1,
-.content--text h2,
-.content--text h3,
-.content--text h4,
-.content--text h5,
-.content--text h6 {
-  text-align: center;
+.content--text h1 {
   margin-bottom: 22px;
+}
+
+.content--text h2 {
+  margin-bottom: 20px;
+}
+
+.content--text h3 {
+  margin-bottom: 10px;
 }
 
 .content--text p:not(:first-of-type) {
@@ -3235,11 +3250,6 @@ p > .first-char.big {
 
 .content--text .par-1 {
   margin: 32px 0 0 0;
-}
-
-.content--text .par-1 h3 {
-  text-align: left;
-  margin-bottom: 16px;
 }
 
 .content--text .par-1 ul,
